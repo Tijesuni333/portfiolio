@@ -1,0 +1,106 @@
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main h2{
+    font-weight: lighter;
+    color: #557a0ae8;
+    position: relative;
+    top: 9px;
+}
+.main h3{
+    font-weight: lighter;
+    color: #557a0ae8;
+}
+span{
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(180, 171, 171);
+}
+main p{
+    color: grey;
+    width: 70%;
+    text-align: justify;
+
+}
+main ul{
+    color: grey;
+}
+.form{
+    color: grey;
+    line-height: 50px;
+    position: relative;
+    right: 200px;
+   
+}
+.form input{
+    width: 200%;
+    height: 35px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(214, 209, 209);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size:17px ;
+    color: grey;
+    outline: none;
+}
+.form select{
+    width: 40%;
+    height: 35px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(214, 209, 209);
+    border-radius: 5px;
+    color: grey;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.form textarea{
+    width: 200%;
+    height: 70px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(214, 209, 209);
+    border-radius: 5px;
+    font-size:17px;
+    color: grey;
+    padding-left: 10px;
+}
+::placeholder{
+    font-size: 17px;
+}
+option{
+    color: grey;
+    font-size: 17px;
+    text-align: left;
+}
+input[type=submit]{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    background-color: rgb(85, 138, 113);
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: rgb(141, 192, 168);
+    cursor: pointer;
+}
+label{
+    white-space: nowrap;
+    position: relative;
+    top: 12px;
+}
+.Not{
+    line-height: 25px;
+}
+ul{
+    list-style-type: square;
+  }

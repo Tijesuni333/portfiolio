@@ -1,0 +1,59 @@
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+main h2{
+    font-weight: lighter;
+    color: #557a0ae8;
+}
+main h3{
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(180, 171, 171);
+}
+main p{
+    color: grey;
+    line-height: 23px;
+}    
+main a{
+    color: grey;
+}
+main a:hover{
+    color:rgb(180, 171, 171) ;
+}
+main fieldset{
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(236, 230, 230);
+    border-radius: 5px;
+    height: 220px;
+    position: relative;
+    top: 35px;
+}
+main fieldset img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+fieldset a{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+}
+fieldset a:hover{
+    color:rgb(180, 171, 171) ;
+}
+#AI,#AC,#AJ,#BP,#AG,#SH{
+    display: flex;
+    justify-content: space-between;
+}
+.AI1,.AC1,.BP1,.AG1,.AJ1,.SH1{
+    flex-basis: 65%;
+}
+.AI2,.AC2,.BP2,.AG2,.AJ2,.SH2{
+    flex-basis: 30%;
+}
+.AG2 fieldset{
+    height: 200px;
+}

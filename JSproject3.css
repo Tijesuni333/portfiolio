@@ -1,0 +1,67 @@
+body{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+}
+h1{
+    padding: 1rem;
+    font-size: 2.4rem;
+        
+}
+.container{
+    border: none;
+    padding: 2rem;
+    width: 40%;
+    background-color: white;
+    margin: auto;
+
+}
+.title{
+    color: #8989eb;
+}
+.notes{
+    color: #5a5656;
+    font-size: 1.07rem;
+}
+img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+}
+i{
+    color: #c8c8f5;
+}
+i:hover{
+    cursor: pointer;
+    color:#8989eb;
+}
+.prevbtn,.nextbtn{
+    border: none;
+    background-color: inherit;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 0rem;
+}
+.randombtn{
+    padding: 0.7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: small;
+    background-color:#d1d1f5 ;
+    border-radius: 0.3rem;
+    color: blue;
+    cursor: pointer;
+    border-left-color: #b3b3f3;
+    border-top-color: #b3b3f3;
+    border-right-color: #0000ff;
+    border-bottom-color: #0000ff;
+}
+.randombtn:hover{
+    background-color: #8888f0;
+    color: black;
+}

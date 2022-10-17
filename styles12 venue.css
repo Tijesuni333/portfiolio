@@ -1,0 +1,28 @@
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+main h2{
+    font-weight: lighter;
+    color: #557a0ae8;
+}
+main p{
+    color: grey;
+}
+main a{
+    color: grey;
+}
+main a:hover{
+    color: rgb(180, 171, 171);
+}
+.ch,.FS{
+    display: flex;
+    justify-content: space-between;
+}
+.not{
+    position: relative;
+    bottom: 15px;
+}
