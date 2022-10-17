@@ -1,0 +1,229 @@
+html body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color:#316ebe ;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+
+}
+.nav a{  
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 1020px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li:hover{
+    background-color:#45567d;
+}
+.first{
+    padding: 250px;
+    background-color: #262629;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.first h3{
+    color: #be3144;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+#second{
+    padding: 80px;
+    background-color: #45567d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#second h2{
+    font-size: 40px;
+    color: white;
+    border-bottom: solid;
+    border-width: 2px;
+    display: inline-block;
+    margin-left: 25%;
+    position: relative;
+    bottom: 30px;
+}
+img{
+    width: 370px;
+    height: 370px;
+}
+.A{
+    text-align: center;
+    background-color: #303841;
+    position: relative;
+    right:20px;
+}
+.B{
+    text-align: center;
+    background-color: #303841;
+    position: relative;
+    left: 25px;
+}
+.C{
+    text-align: center;
+    background-color: #303841;
+    position: relative;
+    left: 70px;
+}
+label{
+    position: relative;
+    bottom: 30px;
+}
+.code{
+    position: relative;
+    bottom: 30px;
+    color:#303841;
+    transition: color 0.8s;
+    transition-timing-function: ease;
+}
+.projects:hover .code{
+    color: #ff7f50;
+}
+.pro{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 20px;
+   
+}
+.projects{
+    padding-bottom: 50px;
+    padding-right: 10px;
+}
+.projects a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.in{
+    text-align: center;
+}
+.in a{
+    text-decoration: none;
+    padding: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    background-color: #303841;
+    color: white;
+    transition: background 0.3s ease-out;
+}
+.in a:hover{
+    background-color:#be3144 ;
+}
+.in a:hover .cod{
+    transform: translateX(2px);
+}
+.in a  .cod{
+    margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+#third{
+    padding: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #303841;
+    color:white;
+}
+#third h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+#third h4{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+hr{
+    border-color: #be3144;
+    border-width: 3px;
+    position: relative;
+    bottom: 20px;
+}
+.socials{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+    position: relative;
+    left: 280px;
+}
+.socials a{
+    color: white;
+    text-decoration: none;
+    font-size: 27px; 
+    font-weight: 400;
+}
+.fac{
+    transition: transform 0.3s ease-out;
+}
+.fac:hover{
+    transform: translateY(10px);
+}
+.end{
+    position: relative;
+    bottom: 200px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+.last svg{
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top: 2px;
+}
+.secnd {
+    position: relative;
+    left: 100px;
+}
+.secnd a{
+    text-decoration: none;
+    color: white;
+}
+h4{
+    font-size: 2rem;
+    color: #46464e;
+}
+.obj{
+    color: #636374;
+    font-family: Arial, Helvetica, sans-serif;
+}
